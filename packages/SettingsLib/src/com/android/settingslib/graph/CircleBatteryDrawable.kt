@@ -97,8 +97,8 @@ class CircleBatteryDrawable(private val context: Context, frameColor: Int) : Dra
         scheduleSelf({ invalidateSelf() }, 0)
     }
 
-    override fun setBounds(left: Int, top: Int, right: Int, bottom: Int) {
-        super.setBounds(left, top, right, bottom)
+    override fun onBoundsChange(bounds: Rect) {
+        super.onBoundsChange(bounds)
         updateSize()
     }
 
