@@ -57,6 +57,9 @@
     <dimen name="udfps_animation_size">280dp</dimen>
     <dimen name="udfps_animation_offset">0dp</dimen>
 
+    <!-- Base Multiplier for dp to px. -->
+    <dimen name="amb_font_base_multiplier_dp">1dp</dimen>
+
     <!-- Pixel navbar -->
     <dimen name="opa_diamond_translation">16dp</dimen>
     <dimen name="opa_disabled_home_diameter">@dimen/navigation_icon_size</dimen>
